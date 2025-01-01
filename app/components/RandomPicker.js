@@ -49,6 +49,7 @@ export default function RandomPicker() {
 
   return (
     <div className={styles.container}>
+     
       <input
         type="file"
         accept=".csv"
@@ -68,7 +69,7 @@ export default function RandomPicker() {
       <div className={styles.counterContainer}>
         Tirages: {counter}
       </div>
-
+      
       {winner && (
         <div className={styles.winnerContainer}>
           <Video />
