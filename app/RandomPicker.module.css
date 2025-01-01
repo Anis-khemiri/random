@@ -43,7 +43,10 @@
     margin-bottom: 1rem;
     color: darkred;
   }
-  
+  .video2{
+    display: none;
+    height: 0px;
+  }
   .winner p {
     font-size: 3.2rem;
     margin-bottom: 0.5rem;
