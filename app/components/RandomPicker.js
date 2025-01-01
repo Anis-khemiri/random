@@ -44,7 +44,7 @@ export default function RandomPicker() {
       const finalIndex = Math.floor(Math.random() * participants.length);
       setWinner(participants[finalIndex]);
       setIsSpinning(false);
-    }, 29000);
+    }, 24000);
   };
 
   return (
