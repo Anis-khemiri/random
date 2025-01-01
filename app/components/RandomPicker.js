@@ -49,7 +49,11 @@ export default function RandomPicker() {
 
   return (
     <div className={styles.container}>
-     
+     <video   preload="none" className="v">
+        <source src="/tamboula.mp4" type="video/mp4" />
+      
+        Your browser does not support the video tag.
+      </video>
       <input
         type="file"
         accept=".csv"

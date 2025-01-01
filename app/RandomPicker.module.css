@@ -4,13 +4,7 @@
     padding: 2rem;
     text-align: center;
   }
-  .v1{
-    display: none;
-    visibility: hidden;
-    position: absolute;
-  left: -9999px;
-  height: 0px;
-  }
+  
   .fileInput {
     margin-bottom: 2rem;
   }
